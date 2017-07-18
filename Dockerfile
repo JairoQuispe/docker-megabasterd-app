@@ -16,3 +16,5 @@ RUN mkdir -p $HOME && \
 WORKDIR $HOME
 ENTRYPOINT ["java","-jar"]
 CMD ["/home/Megabasterd.jar"] 
+
+# docker run --user $(id -u) -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v $HOME/Descargas:/home/mega megabasterd
