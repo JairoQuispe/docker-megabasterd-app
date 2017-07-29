@@ -3,7 +3,7 @@ LABEL maintainer "Jairo Quispe <jairo.quispe.03@gmail.com>"
 
 ENV HOME /home/mega
 
-RUN apk add --update --no-cache libxext \
+RUN apk add --update --no-cache libxext6 \
 	libxrender \
 	libxtst \
 	fontconfig \
