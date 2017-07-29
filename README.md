@@ -11,6 +11,6 @@ docker run --user $(id -u) -it \
 			-v $HOME/Descargas:/home/mega/ \
 			jquispe/megabasterd-app
 ```
-![alt text](https://media.giphy.com/media/xT39CQN9TbLicYyJtm/giphy.gif "MegaBasterd")
+![alt text](https://media.giphy.com/media/3o6vXWG2hnAgRpavIY/giphy.gif "MegaBasterd")
 ![](https://media.giphy.com/media/xT39CQN9TbLicYyJtm/giphy.gif)
 
