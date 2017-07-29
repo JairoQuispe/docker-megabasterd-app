@@ -18,5 +18,5 @@ docker run --user $(id -u) -it \
 ```
 docker start mega
 ```
-![](https://media.giphy.com/media/xT39CQN9TbLicYyJtm/giphy.gif)
+![alt text](https://media.giphy.com/media/xT39CQN9TbLicYyJtm/giphy.gif "Download")
 
