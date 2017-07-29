@@ -1,7 +1,8 @@
 # Megabasterd-app
 Megabasterd es una aplicación portable multiplataforma para descargar/subir ficheros de MEGA sin restricciones.
 
-![alt text](http://www.mediafire.com/convkey/14a5/8tszp99mv9jdv5tag.jpg "MegaBasterd")
+## Ejecutar desde un repositorio remoto
+
 ```
 docker run --user $(id -u) -it \
 			--name mega \
@@ -10,4 +11,6 @@ docker run --user $(id -u) -it \
 			-v $HOME/Descargas:/home/mega/ \
 			jquispe/megabasterd-app
 ```
-![](https://media.giphy.com/media/3o7btNjNvOW4qfGl9u/giphy.gif)
+![alt text](https://media.giphy.com/media/3o6vXWG2hnAgRpavIY/giphy.gif "MegaBasterd")
+![](https://media.giphy.com/media/xT39CQN9TbLicYyJtm/giphy.gif)
+
