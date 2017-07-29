@@ -12,5 +12,11 @@ docker run --user $(id -u) -it \
 			jquispe/megabasterd-app
 ```
 ![alt text](https://media.giphy.com/media/3o6vXWG2hnAgRpavIY/giphy.gif "MegaBasterd")
+
+## Volver a Iniciar y Descargar Archivo
+
+```
+docker start mega
+```
 ![](https://media.giphy.com/media/xT39CQN9TbLicYyJtm/giphy.gif)
 
