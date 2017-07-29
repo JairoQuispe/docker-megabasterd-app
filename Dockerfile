@@ -11,9 +11,11 @@ RUN apk add --update --no-cache libxext \
   	rm -rf /tmp/* /var/cache/apk/*
 RUN mkdir -p $HOME && \
 	wget https://raw.githubusercontent.com/JairoQuispe/docker-megabasterd-app/master/MegaBasterdALL_PLATFORMS_2.11.jar -O /home/Megabasterd.jar && \
-	chmod 777 /home/Megabasterd.jar
+	chmod 777 /home/Megabasterd.jar && chown -R /home
 WORKDIR $HOME
 ENTRYPOINT ["java","-jar"]
 CMD ["/home/Megabasterd.jar"] 
+
+# docker build . -t megabasterd
 
 # docker run --user $(id -u) -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v $HOME/Descargas:/home/mega megabasterd
